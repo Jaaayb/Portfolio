@@ -476,6 +476,16 @@ box-shadow: 0 0 1.6rem var(--main-color);
 @media (max-width: 617px) {
     html {
         font-size: 50%;
-        
     }
 }
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .about-img img {
+        width: 50vw;  
+        margin-bottom: 1rem;
+    }
+}
+
