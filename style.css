@@ -396,6 +396,12 @@ box-shadow: 0 0 1.6rem var(--main-color);
     color: var(--bg-color);
     box-shadow: 0 0 25px var(--main-color);
 }
+.footer .social {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: var(--text-color);
+}
 
 /*Responsive*/
 @media (max-width: 1200px) {
